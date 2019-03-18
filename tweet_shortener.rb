@@ -44,24 +44,14 @@ end
 
 
 def selective_tweet_shortener(tweets)
-
-  #tweets.map do |tweet|
-    #tweet_split = tweets.split("")
-
-    #return tweet_split
-    #tweet_size = tweet_split.size
-
     if tweets.length >= 140
       word_substituter(tweets[0...140])
-      #i = 0
-      #while i < tweets.size
-        #puts "#{word_substituter(tweets[i])}, "
-      #i+=1
-      #end
     else
      tweets
+   end
+end
 
-    end
-  #end
+def shortened_tweet_truncator
+
 
 end
