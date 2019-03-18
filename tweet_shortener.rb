@@ -52,14 +52,14 @@ def selective_tweet_shortener(tweets)
     #tweet_size = tweet_split.size
 
     if tweets.length >= 140
-      puts word_substituter(tweets[0...140])
+      word_substituter(tweets[0...140])
       #i = 0
       #while i < tweets.size
         #puts "#{word_substituter(tweets[i])}, "
       #i+=1
       #end
     else
-     puts tweets
+     tweets
 
     end
   #end
