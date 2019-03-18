@@ -46,10 +46,10 @@ end
 def selective_tweet_shortener(tweets)
 
   #tweets.map do |tweet|
-    tweet_split = tweets.split("")
+    #tweet_split = tweets.split("")
 
     #return tweet_split
-    tweet_size = tweet_split.size
+    #tweet_size = tweet_split.size
 
     if tweets.length >= 140
       puts word_substituter(tweets[0...140])
@@ -59,7 +59,7 @@ def selective_tweet_shortener(tweets)
       #i+=1
       #end
     else
-     puts word_substituter(tweets)
+     puts tweets
 
     end
   #end
