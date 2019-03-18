@@ -44,7 +44,7 @@ end
 
 def selective_tweet_shortener(tweets)
   #return tweets.size
-  tweets.each do |tweet|
+  tweets.map { |e|  } do |tweet|
     if tweet.length >= 140
       tweet[0...130]
       i = 0
