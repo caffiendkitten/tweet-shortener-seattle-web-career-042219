@@ -49,7 +49,7 @@ end
 
 def shortened_tweet_truncator(tweets)
 
-  if word_substituter(tweet).length > 140
+  if word_substituter(tweets).length > 140
     word_substituter(tweets[0...137])+ "..."
   else
    tweets
